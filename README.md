@@ -1,1 +1,1 @@
-# IoT Raspberry/BeableBone data Pipeline
+# IoT Raspberry/BeagleBone data Pipeline
