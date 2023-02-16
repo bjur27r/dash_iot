@@ -7,7 +7,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 client_db = influxdb.InfluxDBClient('54.212.39.89', 8086,
 
-                                    username="admin", password="Carrion2017")
+                    
 client_db.query("show databases;")
 
 # def req(user,field)
@@ -21,7 +21,7 @@ from datetime import datetime
 from influxdb import InfluxDBClient
 
 
-# client = InfluxDBClient('54.212.39.89', 8086, 'admin', 'Carrion2017', 'tempDB')
+
 # esult = client.query('select value from outputCurrent;')#voltage_PV #temperature#outputCurrent
 
 
